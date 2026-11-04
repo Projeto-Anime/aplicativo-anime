@@ -77,8 +77,8 @@ export const FavoritesProvider: React.FC<{ children: React.ReactNode }> = ({ chi
 
   const [userProfile, setUserProfile] = useState<UserProfile>({
     name: 'Maria',
-    bio: 'Explorando o universo mágico do Studio Ghibli e organizando meus filmes favoritos! ✨🌸',
-    bannerUrl: 'https://i.pinimg.com/1200x/60/ef/a3/60efa3a9382bf3503f0d96fc6bdd1147.jpg',
+    bio: 'Apenas uma grande fã por aqui✨🌸',
+    bannerUrl: 'https://i.pinimg.com/1200x/ec/85/f3/ec85f3a040718dd253198c3ec0dcbcdf.jpg',
     avatarHair: DEFAULT_HAIR,
     avatarEyes: DEFAULT_EYES,
     avatarMouth: DEFAULT_MOUTH,

@@ -188,12 +188,7 @@ export default function ExploreScreen() {
                 style={[styles.tabButton, subTab === 'curiosities' && styles.tabButtonActive]}
                 onPress={() => setSubTab('curiosities')}
               >
-                <Ionicons
-                  name="sparkles"
-                  size={16}
-                  color={subTab === 'curiosities' ? '#FFF' : '#286879'}
-                  style={{ marginRight: 6 }}
-                />
+                
                 <Text style={[styles.tabButtonText, subTab === 'curiosities' && styles.tabButtonTextActive]}>
                   Doc & Jogos
                 </Text>
