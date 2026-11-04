@@ -14,6 +14,7 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
+// CAMINHO RECUANDO DUAS PASTAS ATÉ A RAIZ
 const BANNER_TOP = require('../../assets/ponyo.png');
 const LOGO = require('../../assets/logo_kizuna.png');
 
